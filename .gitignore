@@ -1,0 +1,10 @@
+# Release repository working files
+*.exe
+*.exe.download
+*.msi
+*.zip
+*.log
+*.tmp
+
+# Keep the update manifest committed
+!latest.json
