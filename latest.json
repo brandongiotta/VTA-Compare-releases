@@ -1,7 +1,7 @@
 {
-    "version":  "0.0.5",
-    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.5/VTA_Compare_Setup_0_0_5.exe",
-    "notes":  "Add Ignore Start Date comparison setting.\n\n- Added Tools \u003e Settings \u003e Ignore Start Date.\n- When enabled, summary comparisons ignore Start Date cell differences.\n- Migration plan candidate detection and live planners now ignore startDate for profile summaries, condition sets, rule mappings, and AP tax action ranges.\n- Added CLI support with --ignore-start-date.\n- Updated docs and bundled user guide.",
-    "published_at":  "2026-08-21",
-    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.5"
+    "version":  "0.0.6",
+    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.6/VTA_Compare_Setup_0_0_6.exe",
+    "notes":  "Improve tax action and rule migration reliability.\n\n- Fixed SPLIT rule creates so delimiter/index parameters are preserved during Rule Mapping migration.\n- Added source/target context to migration selection dialogs and force a fresh plan after each migration apply.\n- Reworked AP Tax Action Override comparisons to use the live API shape, including drill-in fields such as input flexcode value and calculated zero tax.\n- Improved AP Tax Action Range migration by resolving Business Unit references from the full Business Unit API map.\n- Added regression self-tests for the new tax action and rule migration behavior.",
+    "published_at":  "2026-08-26",
+    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.6"
 }
