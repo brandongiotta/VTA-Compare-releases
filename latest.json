@@ -1,7 +1,7 @@
 {
-    "version":  "0.0.6",
-    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.6/VTA_Compare_Setup_0_0_6.exe",
-    "notes":  "Improve tax action and rule migration reliability.\n\n- Fixed SPLIT rule creates so delimiter/index parameters are preserved during Rule Mapping migration.\n- Added source/target context to migration selection dialogs and force a fresh plan after each migration apply.\n- Reworked AP Tax Action Override comparisons to use the live API shape, including drill-in fields such as input flexcode value and calculated zero tax.\n- Improved AP Tax Action Range migration by resolving Business Unit references from the full Business Unit API map.\n- Added regression self-tests for the new tax action and rule migration behavior.",
-    "published_at":  "2026-08-26",
-    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.6"
+    "version":  "0.0.7",
+    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.7/VTA_Compare_Setup_0_0_7.exe",
+    "notes":  "Expand migration planning and tighten API access security.\n\n- Added migration planning and selected-write execution for Tax Calculation Exclusions, AP Tax Action Overrides, Business Unit countries, and Enhanced Rate Code countries.\n- Added fresh Fusion Instance role filtering for API compare, summary download, and migration planning so users only see instances where they have VTA access.\n- Role-gated migration writes: READONLY targets can build review plans but cannot apply writes, and Business Unit country writes require FI_ADMIN.\n- Added security warnings to HTML migration plans when the selected target role prevents migration.\n- Reduced compare noise for Fusion Instance IDs, start dates/start flags, Legal Entity lists, service subscriptions, AP/PO/AR exclusion primary keys, and AP Tax Action range matching.\n- Improved auth diagnostics, API error dialogs, Help log-folder shortcuts, modal dimming/centering, and the About dialog.\n- Added data-source documentation covering which sections come from summary reports versus live UI APIs.",
+    "published_at":  "2026-08-28",
+    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.7"
 }
