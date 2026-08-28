@@ -1,7 +1,7 @@
 {
-    "version":  "0.0.8",
-    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.8/VTA_Compare_Setup_0_0_8.exe",
-    "notes":  "Improve compare report clarity and settings usability.\n\n- Normalized Regime Usage List Business Unit ID comparisons through the resolved Business Unit name, preventing false differences when matching Business Units have environment-specific IDs.\n- Replaced section-only badges like \"Only in File 2\" with the report/instance label so one-sided sections are easier to identify.\n- Increased the Settings dialog size and made it resizable so OK and Cancel remain visible with the expanded options.",
+    "version":  "0.0.9",
+    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.9/VTA_Compare_Setup_0_0_9.exe",
+    "notes":  "Fix migration ID translation safety for production pushes.\n\n- Fixed Rule Mapping execution so live creates use the translated target Condition Set and field IDs from the migration plan instead of replaying source IDs.\n- Hardened Condition Set migration to translate source attribute field IDs against the target instance before creating records.\n- Tightened Profile, Tax Action, Override, and Exclusion reference resolution so matching target names/codes win over unsafe same-number ID reuse.\n- Expanded migration self-tests to verify the actual execution payloads used for creates across the affected migration types.",
     "published_at":  "2026-08-28",
-    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.8"
+    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.9"
 }
