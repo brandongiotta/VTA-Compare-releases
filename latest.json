@@ -1,7 +1,7 @@
 {
-    "version":  "0.0.7",
-    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.7/VTA_Compare_Setup_0_0_7.exe",
-    "notes":  "Expand migration planning and tighten API access security.\n\n- Added migration planning and selected-write execution for Tax Calculation Exclusions, AP Tax Action Overrides, Business Unit countries, and Enhanced Rate Code countries.\n- Added fresh Fusion Instance role filtering for API compare, summary download, and migration planning so users only see instances where they have VTA access.\n- Role-gated migration writes: READONLY targets can build review plans but cannot apply writes, and Business Unit country writes require FI_ADMIN.\n- Added security warnings to HTML migration plans when the selected target role prevents migration.\n- Reduced compare noise for Fusion Instance IDs, start dates/start flags, Legal Entity lists, service subscriptions, AP/PO/AR exclusion primary keys, and AP Tax Action range matching.\n- Improved auth diagnostics, API error dialogs, Help log-folder shortcuts, modal dimming/centering, and the About dialog.\n- Added data-source documentation covering which sections come from summary reports versus live UI APIs.",
+    "version":  "0.0.8",
+    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.8/VTA_Compare_Setup_0_0_8.exe",
+    "notes":  "Improve compare report clarity and settings usability.\n\n- Normalized Regime Usage List Business Unit ID comparisons through the resolved Business Unit name, preventing false differences when matching Business Units have environment-specific IDs.\n- Replaced section-only badges like \"Only in File 2\" with the report/instance label so one-sided sections are easier to identify.\n- Increased the Settings dialog size and made it resizable so OK and Cancel remain visible with the expanded options.",
     "published_at":  "2026-08-28",
-    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.7"
+    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.8"
 }
