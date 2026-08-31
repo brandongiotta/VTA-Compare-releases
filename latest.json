@@ -1,7 +1,7 @@
 {
-    "version":  "0.0.9",
-    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.0.9/VTA_Compare_Setup_0_0_9.exe",
-    "notes":  "Fix migration ID translation safety for production pushes.\n\n- Fixed Rule Mapping execution so live creates use the translated target Condition Set and field IDs from the migration plan instead of replaying source IDs.\n- Hardened Condition Set migration to translate source attribute field IDs against the target instance before creating records.\n- Tightened Profile, Tax Action, Override, and Exclusion reference resolution so matching target names/codes win over unsafe same-number ID reuse.\n- Expanded migration self-tests to verify the actual execution payloads used for creates across the affected migration types.",
-    "published_at":  "2026-08-28",
-    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.0.9"
+    "version":  "0.1.0",
+    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.1.0/VTA_Compare_Setup_0_1_0.exe",
+    "notes":  "Add Rule Mapping integrity checks and quieter auth status.\n\n- Added a Rules / Parameter Mapping Integrity section to API reports to flag Rule Mappings attached to Condition Sets owned by a different Fusion Instance.\n- Treat Vertex-provided global Condition Sets with Fusion Instance ID 0 as valid defaults, while validating user-defined Condition Sets against their owning Fusion Instance.\n- Show Fusion Instance names for invalid Rule Mapping references when available from the cached FusionInstances list, with an explicit unknown-owner message when access is limited.\n- Reduced noisy auth/debug details in the main window while preserving the full trace in the auth log.",
+    "published_at":  "2026-08-31",
+    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.1.0"
 }
