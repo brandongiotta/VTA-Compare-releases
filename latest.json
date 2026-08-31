@@ -1,7 +1,7 @@
 {
-    "version":  "0.1.0",
-    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.1.0/VTA_Compare_Setup_0_1_0.exe",
-    "notes":  "Add Rule Mapping integrity checks and quieter auth status.\n\n- Added a Rules / Parameter Mapping Integrity section to API reports to flag Rule Mappings attached to Condition Sets owned by a different Fusion Instance.\n- Treat Vertex-provided global Condition Sets with Fusion Instance ID 0 as valid defaults, while validating user-defined Condition Sets against their owning Fusion Instance.\n- Show Fusion Instance names for invalid Rule Mapping references when available from the cached FusionInstances list, with an explicit unknown-owner message when access is limited.\n- Reduced noisy auth/debug details in the main window while preserving the full trace in the auth log.",
+    "version":  "0.1.1",
+    "installer_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/download/v0.1.1/VTA_Compare_Setup_0_1_1.exe",
+    "notes":  "Migration capabilities removed, due to data integrity concerns.",
     "published_at":  "2026-08-31",
-    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.1.0"
+    "html_url":  "https://github.com/brandongiotta/VTA-Compare-releases/releases/tag/v0.1.1"
 }
